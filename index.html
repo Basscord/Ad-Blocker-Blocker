@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Ad-Blocker-Blocker</title>
+		<style>
+			
+			html {
+				padding: 0;
+				margin: 0;
+				height:100%;
+			}
+
+			body {
+				margin: 0 auto;
+				width:960px;
+				height:100%;
+				min-height:904px;
+				background: url(img/mock-site.png) no-repeat top center;
+			}
+
+		</style>
+		<script src='https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js'></script>
+	</head>	
+	<body>
+		<!-- If Ad-Blocker is on, advertisement.js won't load. -->
+		<script type="text/javascript" src="js/advertisement.js"></script>
+		<script type="text/javascript" src="js/modal.js"></script>
+	</body>
+</html>
